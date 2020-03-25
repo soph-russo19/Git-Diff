@@ -26,7 +26,7 @@ namespace Git_Diff
             string Second_File = ReadFiles.readFiles(Second_FilePath);
 
             // The bool from comparefiles method is returned and stored locally;
-            bool Files_Same Compare_Files(First_File, Second_File);
+            bool Files_Same = Compare_Files(First_File, Second_File);
 
             // If the bool is true, then the files are the same 
             if (Files_Same == true)
