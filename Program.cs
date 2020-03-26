@@ -74,10 +74,10 @@ namespace Git_Diff
         public static string readFiles(string File_Choice)
         {
             // Intialize a StreamReader object
-            StreamReader Text_Object = new StreamReader(@"" + First_FilePath+ ".txt");
+            StreamReader Text_Object = new StreamReader(@"" + File_Choice+ ".txt");
 
             //Creates a file path for StreamReader
-            string File_Input = $@"";
+            string File_Input = $@"" +File_Choice+ ".txt";
 
             //Ensures the while loop runs until a correct file path is found
             bool File_Found = false;
