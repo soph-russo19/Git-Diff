@@ -13,7 +13,7 @@ namespace Git_Diff
         {
             Console.WriteLine(Directory.GetCurrentDirectory());
 
-            Console.WriteLine("The following doscuments are available for comparison: \n1 GitRepositories_1a \n2 GitRepositories_2a\n3 GitRepositories_2b \n4 GitRepositories_3a \n5 GitRepositories_3b");
+            Console.WriteLine("The following doscuments are available for comparison: \n1 GitRepositories_1a \n2 GitRepositories_1b \n3 GitRepositories_2a \n4 GitRepositories_2b \n5 GitRepositories_3a \n6 GitRepositories_3b");
             Console.WriteLine("Please select the first document you wish to compare: ");
             
 
